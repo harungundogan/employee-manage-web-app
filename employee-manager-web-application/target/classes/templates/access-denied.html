@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>403 Forbidden</title>
+</head>
+<body>
+<h2>Access Denied</h2>
+
+<hr>
+<p>
+    You are not authorized.
+    <br><br>
+    You tried to access a page you did not have prior authorization for.
+    <br><br>
+    HTTP 403 Forbidden response status code
+</p>
+<hr>
+<p>
+  <a th:href="@{/employees/list}" >
+    Back to Home Page
+  </a>
+</p>
+</body>
+</html>
